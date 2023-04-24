@@ -1,6 +1,10 @@
 # Project Title: Little Lemon Database
 In this project, we used MySQL Workbench for modeling a database for LittleLemon restaurant and deployed the model as MySQL database. We also created several stored procedures for enabling secure CRUD operations using transactions and generating sales reports.
-![Database ER Diagram]("imgs/LittlelemonDM.png" "Database ER Diagram")
+
+<figure style = "width: 50%;" >
+<img alt = "Database ER Diagram" src = 'imgs/LittlelemonDM.png'>
+<figcaption>Fig.1 - Database ER Diagram.</figcaption>
+</figure>
 
 We then used MySQL Python Connector to create a Python database client and run queries from Jupyter Notebook.
 The data from our database was finally analyzed using Tableau to create Visualizations and Dashboards to gain business insights.
@@ -23,12 +27,36 @@ A trigger is a database object that is associated with a table and automatically
 We used Tableau to perform data analytics using relevant charts and dashboards. Here are some visualizations used.
 
 1. Create a bar chart that shows customers' sales and filter data based on sales with at least $70.
-![bar chart that shows customers' sales and filter data based on sales with at least $70]("imgs/Customers sales.png" "Customers Sales")
+
+<figure style = "width: 50%;" >
+<img alt = "bar chart that shows customers' sales and filter data based on sales with at least $70" style = "width: 50%;" src = 'imgs/Customers sales.png'>
+<figcaption>Fig.2 - Customers Sales.</figcaption>
+</figure>
+
 2. Created a line chart showing the sales trend from 2019 to 2022.
-![line chart showing the sales trend from 2019 to 2022]("imgs/Profit chart.png" "Profits")
+
+<figure style = "width: 50%;" >
+<img alt = "line chart showing the sales trend from 2019 to 2022" style = "width: 50%;" src = "imgs/Profit chart.png">
+<figcaption>Fig.3 - Profits.</figcaption>
+</figure>
+
 3. Created a Bubble chart of sales for all customers.
-![Bubble chart of sales for all customers]("imgs/Sales Buble Chart.png" "Sales Buble Chart")
+
+<figure style = "width: 50%;" >
+<img alt = "Bubble chart of sales for all customers" style = "width: 50%;" src = "imgs/Sales Bubble Chart.png">
+<figcaption>Fig.4 - Sales Buble Chart.</figcaption>
+</figure>
+
 4. Created a Bar chart that shows the sales of the Turkish, Italian, and Greek cuisines for the years 2020 - 2022.
-![Bar chart of the sales of the Turkish, Italian, and Greek cuisines]("imgs/Cuisine Sales and Profits.png" "Sales of the Turkish, Italian, and Greek cuisines")
+
+<figure style = "width: 50%;" >
+<img alt = "Bar chart of the sales of the Turkish, Italian, and Greek cuisines" style = "width: 50%;" src = "imgs/Cuisine Sales and Profits.png">
+<figcaption>Fig.5 - Sales of the Turkish, Italian, and Greek cuisines.</figcaption>
+</figure>
+
 5. Created an interactive dashboard that combines the Bar chart and the Bubble chart.
-![Dashboard with the Bar chart and the Bubble chart]("imgs/Dashboard 1.png" "Dashboard with the Bar chart and the Bubble chart")
+
+<figure style = "width: 50%;" >
+<img alt = "Dashboard with the Bar chart and the Bubble chart" style = "width: 50%;" src = "imgs/Dashboard 1.png">
+<figcaption>Fig.6 - Dashboard with the Bar chart and the Bubble chart.</figcaption>
+</figure>
